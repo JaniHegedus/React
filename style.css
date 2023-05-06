@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 8 pictures in a row */
+    grid-template-rows: repeat(2, 1fr); /* 2 pictures in a column */
+    grid-gap: 10px; /* spacing between pictures */
+}
+
+/* Style for the picture element */
+.picture {
+    width: 100%; /* make the picture take full width of its cell */
+    height: 100%; /* make the picture take full height of its cell */
+    object-fit: cover; /* scale the picture to fill the cell without distortion */
+}
