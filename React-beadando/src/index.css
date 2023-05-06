@@ -71,11 +71,41 @@ button:focus-visible {
   filter: grayscale(100%);
 }
 img{
-  width: 50%;
-  height: 75%;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
 }
 .image-container{
-  display: inline-flex;
-  width: 50%;
-  height: 80%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 10.5%;
+  margin: 10px;
+}
+.imagee {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.m-1 {
+  margin-top: 10px;
+  align-self: center;
+  text-align: center;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.checkbox{
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+.maintext{
+  text-align: center;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
 }
